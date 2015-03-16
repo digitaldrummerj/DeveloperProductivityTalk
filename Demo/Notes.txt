@@ -1,0 +1,27 @@
+Productivity Power Tools
+	- Structure Visualizer is what add the column guides
+	- Tools -> Options -> Productivity Power Tools
+
+
+
+Demos:
+
+1. Collapse Projects / Collapse All
+			- Power Tools collapses to folder level (Collapse Projects)
+			- Resharper collapse everything (Collapse All)
+
+2. Structure Visualizer
+		- Structure Visualizer is what add the column guides
+		- Tools -> Options -> Productivity Power Tools
+
+3. Cancel Build on First Error
+		- VS Commands
+		- Cancel Build on 1st Error is turned off by default
+		- Tools -> Options -> VS Command 2013 -> Open Configuration
+
+4. I Hate Regions
+		- Not Allowing Collapse of Region is Off by Default
+		- Tools -> Options -> Disable Regions
+
+5. GhostDoc
+		

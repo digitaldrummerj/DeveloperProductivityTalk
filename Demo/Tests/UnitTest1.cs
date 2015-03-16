@@ -1,14 +1,18 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using BizLogic;
 
 namespace Tests
 {
-	[TestClass]
 	public class UnitTest1
 	{
-		[TestMethod]
-		public void TestMethod1()
+	
+		public void StripDomainNameFromUserTest(string userName)
 		{
+			// Peek To Definition ALT+F12
+			// Go To Defintion F12 or Ctrl+Click
+
+			new HateRegions().Method1();
 		}
+
 	}
 }
