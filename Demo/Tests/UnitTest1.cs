@@ -5,6 +5,8 @@ namespace Tests
 {
 	public class UnitTest1
 	{
+		//GhostDoc
+		// Ctrl + Shift + D
 	
 		public void StripDomainNameFromUserTest(string userName)
 		{
@@ -12,6 +14,8 @@ namespace Tests
 			// Go To Defintion F12 or Ctrl+Click
 
 			new HateRegions().Method1();
+
+			throw new ApplicationException("Test");
 		}
 
 	}

@@ -40,12 +40,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Calculator.cs" />
+    <Compile Include="DebuggerAttributes\DebugAttributeShowAndTell.cs" />
     <Compile Include="HateRegions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ShortClassName.cs" />
+    <Compile Include="Snippets\CustomException.cs" />
+    <Compile Include="Snippets\ErrorTrapping.cs" />
+    <Compile Include="Snippets\Loops.cs" />
+    <Compile Include="Snippets\Misc.cs" />
+    <Compile Include="Snippets\PropertiesSnippets.cs" />
     <Compile Include="ThisIsAReallyLongClassName.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties JsonToClass_2People2_1json__JSONSchema="C:\vagrant\DeveloperProductivityTalk\Demo\BizLogic\JsonToClass\PeopleSchema.json" JsonToClass_2People_1json__JSONSchema="C:\vagrant\DeveloperProductivityTalk\Demo\BizLogic\JsonToClass\PeopleSchema.json" />
+    </VisualStudio>
+  </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

@@ -30,6 +30,7 @@ namespace BizLogic
 
 		public void Method1()
 		{
+			throw new NotImplementedException("Not Implemented Yet");
 		}
 
 		public void Method2()

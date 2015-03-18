@@ -2,6 +2,7 @@ Script for the demos for the Developer Productivity Talk
 
 ## VS Short Cut Demos
 
+
 ## Group: Search
 
 * Term: Method
@@ -53,8 +54,7 @@ Script for the demos for the Developer Productivity Talk
 * Open Tests -> UnitTest1.cs
 * F12 to go to definition
 * Alt+F12 to Peek Definition
-
-1. GhostDoc
+* GhostDoc
 
 ## Group - Layouts
 
@@ -80,6 +80,7 @@ Script for the demos for the Developer Productivity Talk
 ## File Nesting
 
 * Open Web Project -> Scripts
+* Select Angular and Auto Nest
 * Select Jquery-1.8.2 except min
 * ctrl+alt+n
 * select jquery-1.8.2.min.js
@@ -90,7 +91,7 @@ Script for the demos for the Developer Productivity Talk
 ## Group - Web Essentials
 
 *  Minification
-	- Scripts -> MyScriptFile.js
+	- Scripts -> MyScriptFile.	js
 	- open File to show contents
 	- Right Click in Solution Explorer to minify
 	- Add Another function to MyScriptFile.js
