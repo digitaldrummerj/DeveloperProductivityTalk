@@ -4,7 +4,7 @@
 
 **Twitter:** @digitaldrummerj
 
-## Windows Shortcuts
+## Section 1: Windows Shortcuts
 
 * Arrange Programs
 	1. Win + Left/Right Arrow
@@ -20,31 +20,61 @@
 * Windows Explorer 
 	1. Add project folders to Favorites by dragging them in to it
 
-## VS Short Cut Demos
+## Section 2: Visual Studio Productivity
 
-* Build (ctrl + shift + b)
-* Build Current Project (ctrl + \\)
+* Open Demo Solution
+* Collapse Projects / Collapse All
 
-	1. Tools -> Options -> Keyboard -> Build.BuildSelection 
-* Debug (F5)
-* Start without Debug (ctrl + f5)
+1. Power Tools collapses to folder level (Collapse Projects)
+1. Resharper collapse everything (Collapse All)
+
+### Code snippets
+
+1. Ctrl + K, X pulls up Code Snippets
+1. Logic -> BizLogic -> Snippets
+1. Loops
+1. PropertiesSnippets
+1. ErrorTrapping
+1. Misc
+
+**Surrounds With Code Snippets**
+
+1. Ctrl + K, S
+
+### Shortcuts
+
 * Search
 	1. Term: Method
 	1. File Type: *.cs
 
-*Debugging
+* Build 
+
+	1. ctrl + shift + b
+* Build Current Project 
+
+	1. ctrl + \\
+	1. Tools -> Options -> Keyboard -> Build.BuildSelection 
+* Debug
+
+	1.  F5
+* Start without Debug 
+
+	1. ctrl + f5
+
+### Debugging
+	* Set Console project as Start Up
 	* Set Startup Project to Service
 	* Breakpoint toggle - F9
 	* Run to Cursor - Shift + F10		
 	* Step into Next Step - F11
 
-## Extension Demos:
+**Debug Attributes**
 
-1. Collapse Projects / Collapse All
-* Power Tools collapses to folder level (Collapse Projects)
-* Resharper collapse everything (Collapse All)
+* ( DASAT ) or BizLogic -> DebuggerAttributes -> DebugAttributeShowAndTell.cs
+* 
 
-##Group - Visualizer / Regions / Mixed Tabs
+
+###Group - Visualizer / Regions / Mixed Tabs
 
 1. Structure Visualizer
 * Structure Visualizer is what add the column guides
@@ -58,7 +88,7 @@
 * Productivity Power Tools
 * Can change tabs to spaces or keep tabs
 
-## Group - Cancel Build 1st Error
+### Group - Cancel Build 1st Error
 
 1. Cancel Build on First Error
 * Add BizLogic -> CopyProjectReferences.cs
@@ -69,7 +99,7 @@
 * Right Click on Interface project and select copy as reference
 * Right click on BizLogic References and Select Paste Reference
 
-## Group - Open Cmd / Folder
+### Group - Open Cmd / Folder
 
 1. Open Command Prompt
 	* Open Cmd
@@ -78,33 +108,33 @@
 1. Open Containing Folder
 	* Productivity Power Tools
 
-## Group - Peek / GoTo Definition / GhostDoc
+### Group - Peek / GoTo Definition / GhostDoc
 1. Peek Definition / Go To Definition
 * Open Tests -> UnitTest1.cs
 * F12 to go to definition
 * Alt+F12 to Peek Definition
 * GhostDoc
 
-## Group - Layouts
+### Group - Layouts
 
 1. Layouts O Rama
 
 * Show Pre-Save Layouts
 * Show How to Save Layout
 
-## Group - Switch Startup Project
+### Group - Switch Startup Project
 
 1. Switch Startup Project
 * Show how to configure different startup projects
 
 
-## Group - VS Commands
+### Group - VS Commands
 
 1. Sync Zoom Levels
 1. Keep Docs Open when reloading project
 1. Debug as Different User
 
-## Group - Task Runner
+### Group - Task Runner
 
 ## File Nesting
 

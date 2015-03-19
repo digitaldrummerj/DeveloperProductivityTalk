@@ -5,12 +5,15 @@ using System.Security.Policy;
 
 namespace BizLogic.DebuggerAttributes
 {
+	// Changes how the DebugAttributeShowAndTell looks in the Autos Window
 	[DebuggerDisplay("There are {Fruits.Count} delicious fruits!")]
 	public class DebugAttributeShowAndTell
 	{
+		// Won't Show in Debug Windows
 		[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 		private List<string> _fruits = new List<string>();
 
+		// Will show contents of List in Debug Windows instead of having to expand Fruits
 		[DebuggerBrowsable(DebuggerBrowsableState.RootHidden)]
 		public List<string> Fruits
 		{
@@ -31,6 +34,9 @@ namespace BizLogic.DebuggerAttributes
 			HelloWorld();
 		}
 
+		// the code you are stepping over, does not appear at all in the call stack.  As far as the Call Stack is concerned, it is as if the hidden code does not exist (it is hidden!)
+		// CANNOT be set on a class.  
+		// CAN Set on method
 		[DebuggerHidden]
 		public void DisplayFruitsHidden()
 		{
@@ -46,7 +52,10 @@ namespace BizLogic.DebuggerAttributes
 			HelloWorld();
 		}
 
+		// The code you are stepping over, appears in the call stack as 'external code' 
+		// CAN be set on a class and method
 		[DebuggerStepThrough]
+
 		public void DisplayFruitsStepThrough()
 		{
 			Console.WriteLine("******");
