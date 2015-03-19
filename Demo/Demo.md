@@ -1,13 +1,42 @@
-Script for the demos for the Developer Productivity Talk
+# Script for the demos for the Developer Productivity Talk
+
+**Author:** Justin James
+
+**Twitter:** @digitaldrummerj
+
+## Windows Shortcuts
+
+* Arrange Programs
+	1. Win + Left/Right Arrow
+	1. Win + Up/Down
+	1. Win + Shift + Left/Right
+
+* Show Desktop
+	1. Win + D (toggle)
+
+* Open As Admin
+	1. Win, type program to open, Ctrl+Shift+Enter (or Ctrl + Shift+ Click) to open it as admin
+
+* Windows Explorer 
+	1. Add project folders to Favorites by dragging them in to it
 
 ## VS Short Cut Demos
 
+* Build (ctrl + shift + b)
+* Build Current Project (ctrl + \\)
 
-## Group: Search
+	1. Tools -> Options -> Keyboard -> Build.BuildSelection 
+* Debug (F5)
+* Start without Debug (ctrl + f5)
+* Search
+	1. Term: Method
+	1. File Type: *.cs
 
-* Term: Method
-* File Type: *.cs
-
+*Debugging
+	* Set Startup Project to Service
+	* Breakpoint toggle - F9
+	* Run to Cursor - Shift + F10		
+	* Step into Next Step - F11
 
 ## Extension Demos:
 
