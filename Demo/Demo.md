@@ -4,7 +4,21 @@
 
 **Twitter:** @digitaldrummerj
 
-## Section 1: Windows Shortcuts
+## Section 1: Windows Programs
+
+* Launchy
+	1. Google Search
+	2. Custom Link (BG / GH )
+* Greenshot
+* Last Pass
+* Pocket
+* Chocolatey
+* Bitvise
+	1. SSH Client
+	2. RDP over SSH
+* Linqpad
+
+## Section 2: Windows Shortcuts
 
 * Arrange Programs
 	1. Win + Left/Right Arrow
@@ -20,7 +34,7 @@
 * Windows Explorer 
 	1. Add project folders to Favorites by dragging them in to it
 
-## Section 2: Visual Studio Productivity
+## Section 3: Visual Studio Productivity
 
 * Open Demo Solution
 * Collapse Projects / Collapse All
@@ -43,21 +57,21 @@
 
 ### Shortcuts
 
-* Search
+* **Search**
 	1. Term: Method
 	1. File Type: *.cs
 
-* Build 
+* **Build** 
 
 	1. ctrl + shift + b
-* Build Current Project 
+* **Build Current Project** 
 
 	1. ctrl + \\
 	1. Tools -> Options -> Keyboard -> Build.BuildSelection 
-* Debug
+* **Debug**
 
 	1.  F5
-* Start without Debug 
+* **Start without Debug** 
 
 	1. ctrl + f5
 
@@ -74,67 +88,70 @@
 * 
 
 
-###Group - Visualizer / Regions / Mixed Tabs
+### Visualizer / Regions / Mixed Tabs
 
-1. Structure Visualizer
-* Structure Visualizer is what add the column guides
-* Tools -> Options -> Productivity Power Tools
+* **Structure Visualizer**
+	1. Structure Visualizer is what add the column guides
+	1. Tools -> Options -> Productivity Power Tools
 
-1. I Hate Regions
-* Not Allowing Collapse of Region is Off by Default
-* Tools -> Options -> Disable Regions
+* **I Hate Regions**
+	1. Not Allowing Collapse of Region is Off by Default
+	1. Tools -> Options -> Disable Regions
 
-1. Fix Mixed Tabs
-* Productivity Power Tools
-* Can change tabs to spaces or keep tabs
+* **Fix Mixed Tabs**
+	1. Productivity Power Tools
+	1. Can change tabs to spaces or keep tabs
 
-### Group - Cancel Build 1st Error
+### Cancel Build 1st Error
 
-1. Cancel Build on First Error
-* Add BizLogic -> CopyProjectReferences.cs
-* Build 
-* VS Commands
+* **Cancel Build on First Error**
+	1. Add BizLogic -> CopyProjectReferences.cs
+	1. Build 
+	1. VS Commands
 		* Cancel Build on 1st Error is turned off by default
 		* Tools -> Options -> VS Command 2013 -> Open Configuration
-* Right Click on Interface project and select copy as reference
-* Right click on BizLogic References and Select Paste Reference
+	1. Right Click on Interface project and select copy as reference
+	1. Right click on BizLogic References and Select Paste Reference
 
-### Group - Open Cmd / Folder
+### Open Cmd / Folder
 
-1. Open Command Prompt
-	* Open Cmd
-	* Productivity Power Tools
+* **Open Command Prompt**
+	1. Open Cmd
+	1. Productivity Power Tools
 
-1. Open Containing Folder
-	* Productivity Power Tools
+* **Open Containing Folder**
+	1. Productivity Power Tools
 
-### Group - Peek / GoTo Definition / GhostDoc
-1. Peek Definition / Go To Definition
-* Open Tests -> UnitTest1.cs
-* F12 to go to definition
-* Alt+F12 to Peek Definition
-* GhostDoc
+### Peek / GoTo Definition / GhostDoc
+* **Peek Definition / Go To Definition**
+	1. Open Tests -> UnitTest1.cs
+	1. F12 to go to definition
+	1. Alt+F12 to Peek Definition
+* **GhostDoc**
 
-### Group - Layouts
+### Layouts
 
-1. Layouts O Rama
+* **Layouts O Rama**
 
-* Show Pre-Save Layouts
-* Show How to Save Layout
+	1. Show Pre-Save Layouts
+	1. Show How to Save Layout
 
-### Group - Switch Startup Project
+### Switch Startup Project
 
-1. Switch Startup Project
-* Show how to configure different startup projects
+* **Switch Startup Project**
+	1. Show how to configure different startup projects
 
 
-### Group - VS Commands
+### VS Commands
 
-1. Sync Zoom Levels
-1. Keep Docs Open when reloading project
-1. Debug as Different User
+* Sync Zoom Levels
+* Keep Docs Open when reloading project
+* Debug as Different User
 
-### Group - Task Runner
+### Task Runner
+
+* Gulp/Grunt
+* Open Solution / Pre-Build / Post-Build / Clean
 
 ## File Nesting
 
@@ -147,16 +164,16 @@
 * ctrl+alt+n
 * selectc jquery-ui-1.8.24.min.js
 
-## Group - Web Essentials
+## Web Essentials
 
-*  Minification
+*  **Minification**
 	- Scripts -> MyScriptFile.	js
 	- open File to show contents
 	- Right Click in Solution Explorer to minify
 	- Add Another function to MyScriptFile.js
 	- Check out the min file
 
-* Sprites
+* **Sprites**
 	- Tools -> Options -> Web Essentials -> Sprite
 	- Turn on Run on Build
 	- Select Web -> Images -> orderedList*.png 
@@ -164,16 +181,14 @@
 	- Change from Vertical to Horizontal
 	- Build and see if change
 
-* Markdown Editor 
-* JSHint
+* **Markdown Editor** 
 
-
-## Group: Mads Is Awesome
+## Mads Is Awesome [http://tinyurl.com/madsisawesome](http://tinyurl.com/madsisawesome)
 
 * Add New Empty File
 * Json Schema Generator
 
-## Group: Resharper
+## Resharper
 
 * Navigation
 

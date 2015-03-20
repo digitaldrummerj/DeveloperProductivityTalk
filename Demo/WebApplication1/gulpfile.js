@@ -1,4 +1,4 @@
-/// <vs AfterBuild='default' SolutionOpened='watch' />
+/// <vs AfterBuild='default' Clean='clean' SolutionOpened='watch' />
 var gulp = require('gulp');
 var gutil = require('gulp-util');
 var bower = require('bower');
