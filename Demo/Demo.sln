@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{999E747F-9A60-4A82-AECC-B86ED0585DC1}"
 EndProject
@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loader2", "Loader2\Loader2.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{E8E7C430-F44E-4E8C-AE96-DEFF0FDDA22E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizLogic", "BizLogic\BizLogic.csproj", "{AEE27466-7A13-4239-A027-3A318F1F44D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizLogic 4.0", "BizLogic\BizLogic 4.0.csproj", "{AEE27466-7A13-4239-A027-3A318F1F44D4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLibrary", "CommonLibrary\CommonLibrary.csproj", "{DE10CC97-A9CE-4AF7-81F8-96BC3567C309}"
 EndProject
@@ -27,7 +27,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5D4437B9-487D-4617-8FC6-E97D339C1947}"
 	ProjectSection(SolutionItems) = preProject
-		Demo.md = Demo.md
+		readme.md = readme.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{77696892-4F8F-43F3-B79B-9CC9D80740B7}"
@@ -35,6 +35,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsService1", "WindowsService1\WindowsService1.csproj", "{236EC682-0611-42EC-AD8D-363D5788BF89}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{5A8F6ED1-0383-4FFF-BF05-4442AE63082B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp6LanguageEnhancements", "CSharp6LanguageEnhancements\CSharp6LanguageEnhancements.csproj", "{8F3E41FE-0207-4685-B02B-0B8EFE436310}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -78,6 +80,10 @@ Global
 		{5A8F6ED1-0383-4FFF-BF05-4442AE63082B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A8F6ED1-0383-4FFF-BF05-4442AE63082B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A8F6ED1-0383-4FFF-BF05-4442AE63082B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F3E41FE-0207-4685-B02B-0B8EFE436310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F3E41FE-0207-4685-B02B-0B8EFE436310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F3E41FE-0207-4685-B02B-0B8EFE436310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F3E41FE-0207-4685-B02B-0B8EFE436310}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,5 +97,6 @@ Global
 		{DE10CC97-A9CE-4AF7-81F8-96BC3567C309} = {B0C4C706-EC92-4B95-AE77-B50DBA7D70C2}
 		{1611D7A5-3C99-4009-9007-66ED955DE0E3} = {B2790CDB-0C53-45D7-9900-A29F1AB50A12}
 		{236EC682-0611-42EC-AD8D-363D5788BF89} = {77696892-4F8F-43F3-B79B-9CC9D80740B7}
+		{8F3E41FE-0207-4685-B02B-0B8EFE436310} = {B0C4C706-EC92-4B95-AE77-B50DBA7D70C2}
 	EndGlobalSection
 EndGlobal

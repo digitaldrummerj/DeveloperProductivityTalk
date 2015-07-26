@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using BizLogic.DebuggerAttributes;
+using CSharp6LanguageEnhancements;
 
 namespace ConsoleApplication1
 {
@@ -13,16 +14,20 @@ namespace ConsoleApplication1
 
 			Console.WriteLine("Console App Started");
 
-			var t = new DebugAttributeShowAndTell();
-			t.Fruits.Add("Apple");
-			t.Fruits.Add("Mango");
-			t.Fruits.Add("Banana");
+			CSharp6CodeDemos cSharp6CodeDemos = new CSharp6CodeDemos();
+			Console.WriteLine(cSharp6CodeDemos.ToString());
 
-			t.DisplayFruits();
+			//DEBUGGER ATTRIBUTE DEMO
+			//var t = new DebugAttributeShowAndTell();
+			//t.Fruits.Add("Apple");
+			//t.Fruits.Add("Mango");
+			//t.Fruits.Add("Banana");
 
-			t.DisplayFruitsHidden();
+			//t.DisplayFruits();
 
-			t.DisplayFruitsStepThrough();
+			//t.DisplayFruitsHidden();
+
+			//t.DisplayFruitsStepThrough();
 
 			Console.WriteLine("Press Enter to Exit....");
 			Console.ReadLine();

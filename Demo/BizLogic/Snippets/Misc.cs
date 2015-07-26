@@ -2,8 +2,7 @@
 {
 	public class Misc
 	{
-
-		
+		// Uncomment and hit tab to auto generate.
 		//ctor
 
 		//enum

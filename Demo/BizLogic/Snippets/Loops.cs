@@ -9,6 +9,7 @@ namespace BizLogic.Snippets
 			int a = 10;
 			List<string> firstName = new List<string>{ "Justin", "Bob", "Chris"};
 
+			// Uncomment and hit tab to auto generate.
 			//do
 
 			//while
@@ -17,6 +18,6 @@ namespace BizLogic.Snippets
 
 			// foreach
 
-		}	
+		}
 	}
 }

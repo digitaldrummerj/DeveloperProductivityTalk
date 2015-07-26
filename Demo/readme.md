@@ -8,28 +8,29 @@
 
 * Launchy
 	1. Google Search
-	2. Custom Link (BG / GH )
+	2. Custom Links (BG / GH )
 * Greenshot
 * Last Pass
 * Pocket
 * Chocolatey
-* Bitvise
-	1. SSH Client
-	2. RDP over SSH
+* Vagrant
 * Linqpad
+* Visual Studio Code (replaced my plain text editor)
 
 ## Section 2: Windows Shortcuts
 
 * Arrange Programs
-	1. Win + Left/Right Arrow
-	1. Win + Up/Down
-	1. Win + Shift + Left/Right
+	1. Half Screen - Win + Left/Right Arrow
+	1. Max/Min - Win + Up/Down
+	1. Move to Next Monitor - Win + Shift + Left/Right
 
 * Show Desktop
 	1. Win + D (toggle)
 
 * Open As Admin
-	1. Win, type program to open, Ctrl+Shift+Enter (or Ctrl + Shift+ Click) to open it as admin
+	1. Win
+  1. type cmd to open command prompt
+  1. Ctrl+Shift+Enter (or Ctrl + Shift+ Click) to open it as admin
 
 * Windows Explorer 
 	1. Add project folders to Favorites by dragging them in to it
@@ -55,19 +56,50 @@
 
 1. Ctrl + K, S
 
+### Debugging
+
+1. Set Console project as Start Up
+1. Set Startup Project to Service
+1. Breakpoint toggle - F9
+1. Run to Cursor - Shift + F10		
+1. Step into Next Step - F11
+1. Start Without Debugging
+
+**Debug Attributes**
+
+1. ( DASAT ) or BizLogic -> DebuggerAttributes -> DebugAttributeShowAndTell.cs 
+1. open Console Application Program.cs and put in breakpoint
+1. Run Console Application
+
+
+
+**Visual Studio 2015 Debugging** 
+
 ### Shortcuts
 
 * **Search**
-	1. Term: Method
+
+  1.	Ctrl + Shift + f
+  1. Term: Method
 	1. File Type: *.cs
+  1. F8 to go to next result
+  1. Shift + F8 to go to previous result
+
+* **Resharper Navigate**
+
+  * Go to Everything - Ctrl + T
+  * Go to File - Ctrl + Shift + T
+  * Go to Member in File - Alt + \
 
 * **Build** 
 
 	1. ctrl + shift + b
+
 * **Build Current Project** 
 
 	1. ctrl + \\
 	1. Tools -> Options -> Keyboard -> Build.BuildSelection 
+
 * **Debug**
 
 	1.  F5
@@ -75,17 +107,7 @@
 
 	1. ctrl + f5
 
-### Debugging
-	* Set Console project as Start Up
-	* Set Startup Project to Service
-	* Breakpoint toggle - F9
-	* Run to Cursor - Shift + F10		
-	* Step into Next Step - F11
 
-**Debug Attributes**
-
-* ( DASAT ) or BizLogic -> DebuggerAttributes -> DebugAttributeShowAndTell.cs
-* 
 
 
 ### Visualizer / Regions / Mixed Tabs

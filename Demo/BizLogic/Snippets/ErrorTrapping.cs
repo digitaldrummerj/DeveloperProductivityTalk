@@ -6,6 +6,7 @@ namespace BizLogic.Snippets
 	{
 		public void Bogus()
 		{
+			// Uncomment and hit tab to auto generate.
 			//try
 			//tryf
 

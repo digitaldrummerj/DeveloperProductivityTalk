@@ -8,7 +8,7 @@ namespace Tests
 		//GhostDoc
 		// Ctrl + Shift + D
 	
-		public void StripDomainNameFromUserTest(string userName)
+		public void GetUserInfo(string userName)
 		{
 			// Peek To Definition ALT+F12
 			// Go To Defintion F12 or Ctrl+Click
