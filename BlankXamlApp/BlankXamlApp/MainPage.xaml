@@ -1,0 +1,42 @@
+﻿<Page
+    x:Class="BlankXamlApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BlankXamlApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+	<Page.Resources>
+		<ImageBrush x:Key="ImageBrush1" ImageSource="Assets/SmallLogo-Chicken.png"/>
+	</Page.Resources>
+
+    <Grid>
+        <GridView x:Name="myGridView"
+                  ItemsSource="{Binding}"
+                  SelectionChanged="myGridView_SelectionChanged"
+                  Background="{StaticResource ApplicationPageBackgroundThemeBrush}"
+                  ContainerContentChanging="MyGridView_ContainerContentChanging"
+                  >
+            <GridView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Height="100" 
+                                Width="100" Background="{StaticResource ImageBrush1}"
+								>
+						<Rectangle x:Name="placeholderRectangle" 
+                                   Fill="Red" 
+                                   Opacity="0"/>
+                        <TextBlock x:Name="titleTextBlock" 
+                                   Text="{Binding Title}" 
+                                   Foreground="Yellow"/>
+                        <TextBlock x:Name="subtitleTextBlock" 
+                                   Text="{Binding Subtitle}" 
+                                   Foreground="Aqua"/>
+                        <TextBlock x:Name="descriptionTextBlock" 
+                                   Text="{Binding Description}" 
+                                   Foreground="Gray"/>
+                    </StackPanel>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
+    </Grid>
+</Page>
